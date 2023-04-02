@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vedant's fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Ubuntu', sans-serif;
+    }
+body{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url("bbg.jpg");
+    
+     background-size: 1600px 1200px;
+     height: 1100px;
+    }
+    header{
+       
+        border-radius: 10px;
+    }
+    
+   .container{
+    font-size: 20px;
+   }    .left{
+        display: inline-block;
+        position: absolute;
+        left: 15px;
+        top:6px;
+        padding-top: 2px;
+       
+
+    }
+    .left img{
+        display: block;
+        width: 50px;
+        font-size: 10px;
+        filter: invert("logo");
+        margin: auto;
+        filter: invert(100%);
+    }
+    .left div{
+        font-size: small;
+    }
+    .left div:hover{
+        color: red;
+        cursor:default;
+    }
+    
+   
+    .mid{
+      
+        display: block;
+        width: 500px;
+        margin: 2px auto;
+    }    
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 2px;
+        
+    }  
+     .btn{
+        background-color: none;
+        padding: 6px;
+        color: rgb(17, 138, 244);
+        margin:14px 5px;
+        border-radius: 10px;
+
+    }
+    .right .btn:hover{
+        color: black;
+    }
+    .mid li{
+        display: inline-block;
+    text-align: center;
+    margin: 0px 7px;
+    
+    }
+    .mid a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding-left: 20px;
+
+    }
+    .mid a:hover{
+        text-decoration: underline;
+        color: rgb(249, 187, 187);
+
+    }
+    .mid a.active{
+        text-decoration: underline;
+        color: rgb(113, 157, 164);
+
+    }
+    .text{
+        position: relative;
+        top: 125px;
+        left:175px;
+    }
+    .text p{
+       
+        width:550px;
+        font-size: 17px;
+    }
+    .text p:hover{
+        color: rgb(230, 246, 246);
+        cursor: default;
+    }
+    .text #alleft{
+        text-align: right;
+        color: rgb(245, 237, 237);
+    }
+    .form{
+        display: inline-block;
+        margin: 200px;
+
+    }
+    .form button{
+        background-color: black;
+        color: white;
+    }
+    .form input{
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .form input ::placeholder{
+
+    }
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="left">
+           <img src="logo.png" alt="">
+                <div>
+                    ved fitness
+                </div>
+           
+
+        </div>
+    <div class="mid">
+        <ul>
+            <li><a href="#" class="active">Home</a> </li>
+            <li><a href="#">about</a> </li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">
+         Next
+        </button>
+    <button class="btn" >
+    More info
+    </button></div>
+    </header>
+   
+    <div class="text">
+        <h2>We make fitness a way of life.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error adipisci tempore officia ratione debitis, asperiores, placeat ab culpa libero sed esse. Eius modi labore necessitatibus sunt nam voluptas a animi deleniti molestias sed distinctio excepturi ex quasi maiores, enim ipsum magnam eveniet et ullam vero corporis ad suscipit exercitationem! Neque asperiores molestiae consequatur sequi vel autem blanditiis, obcaecati Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aliquam itaque consequatur repellat quam, nostrum nesciunt reprehenderit dicta deserunt provident harum officiis fuga repellendus iure aspernatur? Dolor ipsa reprehenderit corporis quos corrupti, eaque, minima repellat quas cumque commodi nam animi, dolore ipsam. Aliquid numquam eum amet at unde magni commodi ea. </p>
+        <p id="alleft">^Thank you</p>
+    </div>
+    <div class="form">
+        <form action="ved.php"></form>
+        <h2>Start your journy now</h2>
+        <P>Enter the name champ:<input type="text" placeholder="Enter the name"></P>
+        <p>Address: <input type="text" placeholder="Address"></p>
+        <p>Contact info: <input type="text" placeholder="Mobile No."></p>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
